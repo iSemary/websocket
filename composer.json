@@ -1,0 +1,17 @@
+{
+    "name": "abdelrahman/websocket",
+    "autoload": {
+        "psr-4": {
+            "Abdelrahman\\Websocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrahman Samir",
+            "email": "abdelrahman@notchnco.com"
+        }
+    ],
+    "require": {
+        "workerman/phpsocket.io": "^1.1"
+    }
+}
