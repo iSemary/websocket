@@ -23,7 +23,7 @@ $(function() {
     var lastTypingTime;
     var $currentInput = $usernameInput.focus();
   
-    var socket = io('https://'+document.domain+':2020');
+    var socket = io('wss://'+document.domain+':2020');
   
     const addParticipantsMessage = (data) => {
       var message = '';
